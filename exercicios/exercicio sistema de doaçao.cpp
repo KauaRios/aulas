@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-int doacao = 0; // Inicializa a variável doaçao com 0
+int doacao = 0; 
 int escolha;
 int escolha2;
 do{
