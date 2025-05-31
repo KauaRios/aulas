@@ -12,7 +12,7 @@ cout<<"escolha uma doaçao:\n";
 
 cout<<"(1)DOAR R$5,00\n         (2) DOAR R$10,00\n";
 cout<<"(3) DOAR R$30,00\n         (4) DOAR R$50,00\n";
-cout<<"(5) DOAR OUTERO VALOR\n";
+cout<<"(5) DOAR OUTRO VALOR\n";
 
 cout<<"Digite a sua escolha: ";
 cin>>escolha;
