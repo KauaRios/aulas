@@ -4,8 +4,8 @@ using namespace std;
 
 int main(){
 int senhadigitada;
-int senha = 1234; // Senha correta
-int tentativas = 0; // Contador de tentativas
+int senha = 1234;
+int tentativas = 0; 
   int opcao;
 
 
@@ -38,31 +38,30 @@ cout << "Escolha uma opção: ";
     cin >> opcao;
     switch(opcao) {
         case 1:
-            cout << "Seu saldo é: R$1000,00" << endl; // Exemplo de saldo
+            cout << "Seu saldo é: R$1000,00" << endl; 
             break;
         case 2:{
             cout << "Digite o valor do saque: ";
             int saque;
             cin >> saque;
-            cout << "Saque de R$" << saque << " realizado com sucesso!" << endl; // Exemplo de saque
+            cout << "Saque de R$" << saque << " realizado com sucesso!" << endl; /
             break;}
         case 3:{
             cout << "Digite o valor do depósito: ";
             int deposito;
             cin >> deposito;
-            cout << "Depósito de R$" << deposito << " realizado com sucesso!" << endl; // Exemplo de depósito
+            cout << "Depósito de R$" << deposito << " realizado com sucesso!" << endl; 
             break;}
         case 4:
             cout << "Saindo do sistema. Obrigado por utilizar!" << endl;
-            return 0; // Sai do programa
+            return 0; 
         default:
             cout << "Opção inválida. Tente novamente." << endl;
     }
-}while(opcao != 4); // Continua o loop até que o usuário escolha sair
+}while(opcao != 4); 
 }
 
-return 0; // Sai do programa após o loop
-
+return 0; 
 }
 
    
