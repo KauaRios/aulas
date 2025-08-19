@@ -1,4 +1,4 @@
-# 📚 Repositório de Códigos - Graduação em Computação
+# 📚 Repositório de Códigos - Graduaçao Ciência da Computação
 
 Este repositório reúne os códigos e exercícios desenvolvidos durante as disciplinas cursadas na graduação até o momento.
 
