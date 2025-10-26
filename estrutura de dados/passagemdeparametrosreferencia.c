@@ -13,16 +13,17 @@ void dobrar(int * x){
 int main(){
 
 
+
 int numero=5;
 
-printf("Antes da funçao, o valor é = %d\n",numero);
+printf("Antes da funçao, o valor é = %d\n",numero);//5
 
-//passamos o endereço com operador &
+//passamos o endereço com operador & e nao o valor, isso é o diferente da passagem de parametros por valor
 dobrar(&numero);
 
 
-printf("Depois da funçao o valor é = %d\n",numero);
+printf("Depois da funçao o valor é = %d\n",numero);//10 e nao mais 5 como na passagem por valor
 
 
-    return 0;
+return 0;
 }
