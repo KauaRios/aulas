@@ -53,3 +53,8 @@ int main(void) {
     printf("Nome: %s\n", aluno[indice_maior].nome);
     printf("Curso: %s\n", aluno[indice_maior].curso);
     printf("CR: %.2f\n", aluno[indice_maior].nome);
+
+
+    return 0;
+
+}

@@ -1,13 +1,21 @@
 #include <stdio.h>
-
-void dobrar(int x) {
-    x = x * 2;
-    printf("Dentro da função: %d", x);
+//esta funçao recebe copia do valor
+void dobrar(int x) { //recebe 5
+    x = x * 2;//5x2 =10
+    printf("Dentro da função: %d\n", x);
 }
 
 int main() {
     int numero = 5;
-    dobrar(numero);
-    printf("Fora da função: %d", numero );
+    printf(" antes de chamar a funçao, o valor é = %d\n",numero);//5
+
+
+    dobrar(numero);//passa 5
+    //dobrar
+
+
+    printf("Fora da função: %d\n", numero );
+
+
     return 0;
 }

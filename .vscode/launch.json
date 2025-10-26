@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/Kaua/Downloads/estrutura de dados",
-      "program": "c:/Users/Kaua/Downloads/estrutura de dados/build/Debug/outDebug",
+      "externalConsole": false,
+      "cwd": "/home/kauadev/Documentos/Estruturadedados/estrutura de dados",
+      "program": "/home/kauadev/Documentos/Estruturadedados/estrutura de dados/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
