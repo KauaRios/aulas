@@ -28,12 +28,16 @@
 	}
 
 	void listarItens(Item* itens, int count) {
-				printf("Itens cadastrados:\n");
+		
 		for (int i = 0; i < count; i++) {
 			if (itens[i].quantidade > 0) {
 				printf("Item %d: Nome: %s, Tipo: %s, Quantidade: %d\n", i + 1, itens[i].name, itens[i].tipo, itens[i].quantidade);
+				
+			
 			}
+			
 		}
+	
 	}
 
 	void buscasequencial(Item* itens, int count, const char* nome) {
@@ -47,11 +51,34 @@
 	}
 
 
+int contarItens(Item* itens, int total) {
+    int usados = 0;
+    for (int i = 0; i < total; i++) {
+        if (itens[i].quantidade > 0) {
+            usados++;
+        }
+    }
+    return usados;
+}
+
+
+
+
+
 	int main() {
-		Item itens[ITEM_MAX];
+		Item itens[ITEM_MAX]={0};
 		int count = 0;
 		int opcao;
+		printf("\n===============================\n");
+        printf("MOCHILA DE SOBREVIVENCIA\n");
+        printf("===============================\n");
+		
+		
+		
 		do {
+		int usados=contarItens(itens,ITEM_MAX);
+		 printf("Itens na mochila: %d/%d\n", usados, ITEM_MAX);
+
 			printf("\n Mochila Virtual \n");
 			printf("1. Cadastrar item\n");
 			printf("2. Remover item\n");
