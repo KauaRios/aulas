@@ -129,5 +129,10 @@ int contarItens(Item* itens, int total) {
 		} while (opcao != 5);
 		return 0;
 
+		
+
+
+
+
 
 	}
