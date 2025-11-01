@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 
-void pares (int arrau[],int tamanho){
+void pares (int array[],int tamanho){
     printf("Numeros pares no array:\n");
     for(int i=0; i<tamanho;i++){
-        if(arrau[i]%2==0){
-            printf("%d ", arrau[i]);
+        if(array[i]%2==0){
+            printf("%d ", array[i]);
         }
     }
     printf("\n");
