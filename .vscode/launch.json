@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "externalConsole": true,
+      "cwd": "c:/Users/KauaR/Documents/estruturadedados/estrutura de dados",
+      "program": "c:/Users/KauaR/Documents/estruturadedados/estrutura de dados/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
