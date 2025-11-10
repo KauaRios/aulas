@@ -1,0 +1,10 @@
+/.vscode
+/.vscode
+.vscode/*
+!.vscode/settings.json
+.output/
+dist/
+node_modules/
+.env
+.DS_Store
+idea/
