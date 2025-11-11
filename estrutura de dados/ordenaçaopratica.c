@@ -4,7 +4,7 @@
 struct No {
     int dado;
     struct No* proximo;
-};
+}atual;
 
 int main() {
     struct No* primeiro = (struct No*)malloc(sizeof(struct No));
